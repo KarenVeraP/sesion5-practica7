@@ -1,8 +1,8 @@
-#Práctica 7. Conectar 2 VM con subredes
+# Práctica 7. Conectar 2 VM con subredes
 
 Es importante que los recursos creados en esta práctica se encuentren en la misma región para que puedan conectarse.
 
-##Crear dos redes virtuales
+## Crear dos redes virtuales
 
 Buscamos las redes virtuales en la barra de búsqueda y creamo una.
 
@@ -42,7 +42,7 @@ Nuevamente configuraremos una subnet para la red virtual nueva:
 
 -------------------------------------------
 
-##Creación de las máquinas virtuales
+## Creación de las máquinas virtuales
 
 En la barra de búsqueda de Azure buscamos las máquinas virtuales.
 
@@ -86,9 +86,9 @@ En el apartado de redes configuramos la redvirtual2 y la subnet2.
 
 ----------------------------------
 
-##Conexión de las máquinas virtuales
+## Conexión de las máquinas virtuales
 
-###Iniciar la máquina virtual en Ubuntu
+### Iniciar la máquina virtual en Ubuntu
 
 Entramos a la primer máquina virtual y seleccionamos Conectar SSH.
 
@@ -114,7 +114,7 @@ Una vez que hemos ingresado a Ubuntu podemos hacer una prueba con el comando _su
 
 ![p7p19](imagenes\p7p19.png)
 
-###Emparejamiento de redes
+### Emparejamiento de redes
 Para poder conectar las máquinas primero iremos a la redvirtual1 y seleccionamos _Emparejamiento_.
 
 ![p7p20](imagenes\p7p20.png)
